@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+input , select , button
+{
+  width: 250px;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-family: "Quicksand", sans-serif;
+}
+button
+{
+width: auto;
+background-color: black;
+color: white;
+letter-spacing: 2px;
+
+}
+.saving
+{
+  color: white;
+  background-color: black;
+  padding: 0.3rem;
+  font-family: "Quicksand", sans-serif;
+
+}
+.tableDiv
+{
+  display: flex;
+}
+.commonTable
+{
+width: 50%;
+}
+table
+{
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid black;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+
+}
+.commonTable h3
+{
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem rgb(223, 221, 221);
+}
+.commonTable{
+  height: fit-content;
+
+}
+thead:first-child 
+{
+  background-color: black;
+  color: white;
+  /* border: 1px solid black; */
+  /* border-radius: 0.5rem; */
+
+}
+tr, th, td
+{
+  border: 1px solid black;
+  border-radius: 0.5rem;
+
+}
+.IncomeTable
+{
+  background-color: #c7f9cc;
+  border: none;
+  border-radius: 0.5rem;
+ 
+}
+.ExpenseTable
+{
+  background-color: red;
+  border-radius: 0.5rem;
+  border: none;
+ 
+}
